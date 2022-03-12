@@ -1,0 +1,490 @@
+    /*font-family: 'Raleway', sans-serif;*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    body {
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .wrapper {
+        width: 100%;
+    }
+    
+    .banner {
+        width: 100%;
+        height: 100vh;
+        background-position: center center;
+        background: url("../images/dark_tint.png"), url("../images/bokeh_car_lights_bg.jpg");
+        background-size: cover;
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header {
+        margin: 0 auto;
+        position: absolute;
+        width: 100%;
+        align-self: flex-start;
+    }
+    
+    header h1 {
+        position: absolute;
+        font-size: 1.5em;
+        margin: 30px 0 0 30px;
+        color: white;
+        float: left;
+    }
+    
+    header nav ul {
+        position: absolute;
+        float: right;
+        right: 20px;
+        top: 0px;
+    }
+    
+    header nav ul li {
+        float: left;
+        display: block;
+        padding: 30px;
+    }
+    
+    header nav ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #DBD8D8;
+    }
+    
+    header nav ul li a:hover {
+        color: white;
+        transition: color 0.2s ease-in-out;
+    }
+    
+    h2.altbaslik {
+        color: white;
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    
+    p.altyazi {
+        color: white;
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+    
+    ul.button a {
+        text-decoration: none;
+        font-size: 1em;
+        background: #3cadd4;
+        padding: 15px 40px;
+        border-radius: 20px;
+        color: white;
+    }
+    
+    ul.button a:hover {
+        background: #61c1e1;
+        transition: background-color 0.2s ease-in-out;
+    }
+    /* ----------------------------------------- Section Bolum-1 -----------------------------------------*/
+    
+    section.bolum1 {
+        width: 100%;
+        background: #f5f5f5;
+        text-align: center;
+        padding: 100px 0;
+        margin-bottom: 0.5em;
+    }
+    
+    section.bolum1 h2 {
+        font-size: 3em;
+        color: #474747;
+        margin-bottom: 20px;
+        line-height: 1em;
+    }
+    
+    section.bolum1 h2+p {
+        color: #858585;
+        font-size: 1.3em;
+        margin-bottom: 0.5em;
+    }
+    
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    section.bolum1 .kutu {
+        height: 548px;
+        flex-basis: 300px;
+        flex-shrink: 0;
+        flex-grow: 1;
+        background: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-right: 20px;
+        align-self: flex-start;
+    }
+    
+    section.bolum1 .kutu:nth-last-child(1) {
+        margin-right: 0;
+    }
+    
+    section.bolum1 .kutu i {
+        font-size: 2em;
+        color: white;
+        padding: 40px;
+        border-radius: 100%;
+    }
+    
+    section.bolum1 .kutu i.birinci {
+        background: #3cadd4;
+    }
+    
+    section.bolum1 .kutu i.ikinci {
+        background: #add43c;
+    }
+    
+    section.bolum1 .kutu i.ucuncu {
+        background: #d43c61;
+    }
+    
+    section.bolum1 .kutu h3 {
+        margin: 20px 0;
+        color: #858585;
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    
+    section.bolum1 .kutu p {
+        color: #858585;
+        font-size: 1.3em;
+        font-weight: 100;
+        padding: 0 30px 20px 30px;
+        line-height: 1.5em;
+    }
+    
+    section.bolum2 {
+        width: 100%;
+        background: #fff;
+        text-align: center;
+        padding-top: 80px;
+        border-top: solid 1px #d1d1d1;
+        box-sizing: border-box;
+        display: block;
+    }
+    
+    section.bolum2 h2 {
+        font-size: 2.5em;
+        color: #474747;
+        margin-bottom: 20px;
+    }
+    
+    section.bolum2 h2+p {
+        font-size: 1.3em;
+        margin-bottom: 80px;
+        color: #858585;
+    }
+    
+    section.bolum2 .kisiler {
+        display: flex;
+        width: 100%;
+        border-top: 1px solid #D1D1D1;
+        border-bottom: 1px solid #D1D1D1;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    section.bolum2 .kisi {
+        flex-basis: 220px;
+        margin: 50px 10px;
+        text-align: left;
+        flex-grow: 1;
+    }
+    
+    section.bolum2 .kisi img {
+        width: 100px;
+        border-radius: 100%;
+        margin: 5px 10px;
+        float: left;
+    }
+    
+    section.bolum2 .kisi h4 {
+        margin-top: 25px;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    
+    section.bolum2 .kisi p {
+        margin: 5px 0;
+    }
+    
+    section.bolum2 article {
+        width: 70%;
+        margin: 50px auto;
+    }
+    
+    section.bolum2 article p {
+        font-size: 1em;
+        line-height: 1.6em;
+        color: rgb(43, 42, 42);
+    }
+    
+    section.bolum2 ul li a {
+        border: 0;
+        text-decoration: none;
+        text-align: center;
+        background: #3cadd4;
+        padding: 15px 30px;
+        border-radius: 30px;
+        color: white;
+        display: inline-block;
+        margin-top: 30px;
+        margin-bottom: 45px;
+        cursor: pointer;
+    }
+    
+    section.bolum2 ul li a:hover {
+        background: #61c1e1;
+        transition: background-color 0.2s ease-in-out;
+    }
+    
+    section.bolum3 {
+        width: 100%;
+        background: #3cadd4;
+        display: block;
+        text-align: center;
+    }
+    
+    section.bolum3 h2 {
+        color: white;
+        padding-top: 70px;
+        font-size: 3em;
+    }
+    
+    section.bolum3 h2+p {
+        font-size: 1.4em;
+        color: white;
+        padding-top: 10px;
+        letter-spacing: 2px;
+    }
+    
+    section.bolum3 .container .form {
+        width: 600px;
+        margin: 60px auto;
+    }
+    
+    section.bolum3 .container .form input[type=text] {
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 3px 10px;
+        color: #444;
+        font-size: 1em;
+    }
+    
+    section.bolum3 .container .form input[type=email] {
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 3px 10px;
+        color: #444;
+        font-size: 1em;
+    }
+    
+    section.bolum3 .container .form textarea {
+        width: 430px;
+        height: 150px;
+        border-radius: 5px;
+        padding: 3px 10px;
+        color: #444;
+        font-size: 1em;
+        margin-top: 20px;
+    }
+    
+    section.bolum3 .container .form input[type=submit] {
+        margin-top: 70px;
+        background: #383b43;
+        color: white;
+        padding: 15px 50px;
+        border-radius: 20px;
+        font-size: 1.1em;
+        cursor: pointer;
+        border: 0;
+    }
+    
+    section.bolum3 .container .form input[type=submit]:hover {
+        background: #4C4C4C;
+        transition: 0.2s ease-in-out;
+    }
+    
+    footer {
+        width: 100%;
+        background: #383b43;
+        padding: 30px 0;
+    }
+    
+    footer .container {
+        margin-top: 50px;
+        border-bottom: 1px solid #979797;
+    }
+    
+    footer .footerkutu {
+        width: 230px;
+        margin-left: 15px;
+    }
+    
+    footer .footerkutu:nth-child(1) {
+        margin-left: 0px;
+    }
+    
+    footer h3 {
+        color: white;
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+    
+    footer .container ul {
+        display: block;
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    footer .container ul li {
+        margin-bottom: 10px;
+    }
+    
+    footer .container ul a {
+        text-decoration: none;
+        color: #cdced0;
+    }
+    
+    footer .container ul a:hover {
+        text-decoration: underline;
+    }
+    
+    footer .sosyal {
+        max-width: 1000px;
+        margin: 0px auto;
+    }
+    
+    footer .sosyal .lisans {
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    footer .sosyal .lisans p {
+        color: #858585;
+        margin-top: 20px;
+        float: left;
+    }
+    
+    footer .icons {
+        float: right;
+    }
+    
+    footer .icons i {
+        text-align: center;
+        padding: 10px;
+        color: white;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        border-radius: 100%;
+        font-size: 1.5em;
+    }
+    
+    .temizle {
+        clear: both;
+    }
+    
+    footer .icons i.facebook {
+        background: #39599f;
+    }
+    
+    footer .icons i.twitter {
+        background: #2daae4;
+    }
+    
+    footer .icons i.linkedin {
+        background: #31516a;
+    }
+    
+    @media screen and (max-width: 980px) {
+        .banner {
+            height: 60vh;
+        }
+        header h1 {
+            font-size: 1.2em;
+        }
+        h2.altbaslik {
+            font-size: 2em;
+        }
+        p.altyazi {
+            font-size: 1em;
+        }
+        ul.button a {
+            font-size: 0.7em;
+            padding: 10px 30px;
+            border-radius: 14px;
+        }
+        section.bolum1 .kutu {
+            flex-basis: 100%;
+        }
+        section.bolum2 .kisi {
+            flex-basis: 40%;
+        }
+        footer .footerkutu {
+            flex-basis: 40%;
+        }
+        footer .footerkutu:nth-child(1) {
+            margin-left: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        section.bolum2 .kisi {
+            flex-basis: 100%;
+            text-align: center;
+        }
+        section.bolum2 .kisi img {
+            float: none;
+        }
+        section.bolum3 .container .form input[type=text] {
+            width: 80%;
+        }
+        section.bolum3 .container .form input[type=email] {
+            width: 80%;
+        }
+        section.bolum3 .container .form textarea {
+            width: 80%;
+        }
+        section.bolum3 .container .form input[type=submit] {
+            font-size: 0.8em;
+            padding: 10px 40px;
+        }
+        footer .footerkutu {
+            flex-basis: 100%;
+            text-align: center;
+        }
+        footer .sosyal .lisans p {
+            text-align: center;
+            float: none;
+        }
+        footer .icons {
+            text-align: center;
+            float: none;
+            margin-top: 10px;
+        }
+    }
